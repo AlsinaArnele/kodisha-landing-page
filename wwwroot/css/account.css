@@ -1,0 +1,30 @@
+﻿.btn-custom {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container-outer {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0vh;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+}
+
+@media screen and (max-width:996px) {
+    .w-50 {
+        min-width: 100vw
+    }
+
+    .bodystyle {
+        background-color: whitesmoke;
+    }
+
+    .icons {
+        cursor: pointer;
+    }

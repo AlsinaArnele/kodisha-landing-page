@@ -1,0 +1,105 @@
+﻿
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background: linear-gradient(to left,#efefef,#e8e8e8);
+    justify-content: space-around;
+}
+
+header h2 {
+    padding: 3vh 0;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links li {
+        padding: 3vh 0;
+    }
+
+        .nav-links li a {
+            color: white;
+        }
+
+.log {
+    border: none;
+}
+
+.reg {
+    border: none;
+    border-radius: 1rem;
+    background: #34595a;
+    padding: 1vh;
+}
+
+
+.foot {
+    width: 100%;
+    background: linear-gradient(to left,#efefef,#e8e8e8);
+    margin-top: 5vh;
+}
+
+.myFooter a {
+    color: #333;
+}
+
+    .myFooter a:hover {
+        color: cadetblue;
+        transition: .3s ease;
+    }
+
+.myFooter {
+    padding: 5vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+    .myFooter h2, p, h3, li {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .myFooter h2, h3 {
+        font-weight: 600;
+    }
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.copy {
+    background: #100e0e;
+    padding: 3vw;
+    text-align: center;
+    color: #fff;
+}
+
+.links i {
+    color: cadetblue;
+    font-size: 25px;
+    text-align: left;
+}
+
+@media screen and (max-width:768px) {
+    .myFooter {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3vh;
+    }
+}

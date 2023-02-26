@@ -1,0 +1,106 @@
+/* _content/koooo/Views/Shared/_Layout.cshtml.rz.scp.css */
+
+*[b-xrj7krzin9] {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a[b-xrj7krzin9] {
+    text-decoration: none;
+}
+
+.header[b-xrj7krzin9] {
+    display: flex;
+    background: linear-gradient(to left,#efefef,#e8e8e8);
+    justify-content: space-around;
+}
+
+header h2[b-xrj7krzin9] {
+    padding: 3vh 0;
+    font-size: 25px;
+}
+
+.nav-links[b-xrj7krzin9] {
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links li[b-xrj7krzin9] {
+        padding: 3vh 0;
+    }
+
+        .nav-links li a[b-xrj7krzin9] {
+            color: white;
+        }
+
+.log[b-xrj7krzin9] {
+    border: none;
+}
+
+.reg[b-xrj7krzin9] {
+    border: none;
+    border-radius: 1rem;
+    background: #34595a;
+    padding: 1vh;
+}
+
+
+.foot[b-xrj7krzin9] {
+    width: 100%;
+    background: linear-gradient(to left,#efefef,#e8e8e8);
+    margin-top: 5vh;
+}
+
+.myFooter a[b-xrj7krzin9] {
+    color: #333;
+}
+
+    .myFooter a:hover[b-xrj7krzin9] {
+        color: cadetblue;
+        transition: .3s ease;
+    }
+
+.myFooter[b-xrj7krzin9] {
+    padding: 5vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+    .myFooter h2[b-xrj7krzin9], p[b-xrj7krzin9], h3[b-xrj7krzin9], li[b-xrj7krzin9] {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .myFooter h2[b-xrj7krzin9], h3[b-xrj7krzin9] {
+        font-weight: 600;
+    }
+
+.menu ul[b-xrj7krzin9] {
+    margin: 0;
+    padding: 0;
+}
+
+.copy[b-xrj7krzin9] {
+    background: #100e0e;
+    padding: 3vw;
+    text-align: center;
+    color: #fff;
+}
+
+.links i[b-xrj7krzin9] {
+    color: cadetblue;
+    font-size: 25px;
+    text-align: left;
+}
+
+@media screen and (max-width:768px) {
+    .myFooter[b-xrj7krzin9] {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3vh;
+    }
+}
